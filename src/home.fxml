@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0">
+         <image>
+            <Image url="@Img/nenchinh.jfif" />
+         </image>
+      </ImageView>
+      <Text fill="#08ff08" layoutX="377.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAN FOOD">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Text>
+      <Button onAction="#goToSanPham" layoutX="62.0" layoutY="173.0" mnemonicParsing="false" prefHeight="132.0" prefWidth="201.0" style="-fx-background-color: #14fff7;" text="Sản phẩm">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button onAction="#goToHoaDon" layoutX="163.0" layoutY="375.0" mnemonicParsing="false" prefHeight="132.0" prefWidth="201.0" style="-fx-background-color: #55ff00;" text="Hóa đơn">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button onAction="#ThemHoaDon" layoutX="523.0" layoutY="375.0" mnemonicParsing="false" prefHeight="132.0" prefWidth="201.0" style="-fx-background-color: #decfcf;" text="Thêm hóa đơn">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button onAction="#ThemSanPham" layoutX="422.0" layoutY="173.0" mnemonicParsing="false" prefHeight="132.0" prefWidth="201.0" style="-fx-background-color: red;" text="Thêm sản phẩm">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
