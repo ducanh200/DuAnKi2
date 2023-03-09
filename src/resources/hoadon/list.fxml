@@ -6,8 +6,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
-<Pane fx:controller="controller.ListHoaDonController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ListHoaDonController">
    <children>
       <ImageView fitHeight="700.0" fitWidth="1000.0">
          <image>
@@ -23,13 +22,15 @@
         <columns>
           <TableColumn fx:id="cid" prefWidth="75.0" text="ID" />
           <TableColumn fx:id="cnamekh" prefWidth="229.0" text="Tên khách hàng" />
-            <TableColumn fx:id="csdt" prefWidth="218.0" text="Số điện thoại" />
-            <TableColumn fx:id="cnamesp" prefWidth="194.0" text="Tên sản phẩm" />
-            <TableColumn fx:id="cgia" prefWidth="159.0" text="Giá " />
-            <TableColumn fx:id="csp_id" prefWidth="124.0" text="sp_id" />
+            <TableColumn fx:id="csdt" prefWidth="173.0" text="Số điện thoại" />
+            <TableColumn fx:id="cnamesp" prefWidth="185.0" text="Tên sản phẩm" />
+            <TableColumn fx:id="cgia" prefWidth="84.0" text="Giá " />
+            <TableColumn fx:id="csoluong" prefWidth="94.0" text="Số lượng" />
+            <TableColumn fx:id="ctong" prefWidth="88.0" text="Tổng tiền" />
+            <TableColumn fx:id="csp_id" prefWidth="71.0" text="sp_id" />
         </columns>
       </TableView>
-      <Button onAction="#BackHome" layoutX="35.0" layoutY="32.0" mnemonicParsing="false" style="-fx-background-color: green;" text="&lt;&lt;Back" />
-      <Button onAction="#goToCreat" layoutX="834.0" layoutY="32.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Tạo đơn hàng&gt;&gt;" />
+      <Button layoutX="35.0" layoutY="32.0" mnemonicParsing="false" onAction="#BackHome" style="-fx-background-color: green;" text="&lt;&lt;Back" />
+      <Button layoutX="834.0" layoutY="32.0" mnemonicParsing="false" onAction="#goToCreat" style="-fx-background-color: red;" text="Tạo đơn hàng&gt;&gt;" />
    </children>
 </Pane>

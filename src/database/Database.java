@@ -21,7 +21,6 @@ public class Database {
         Connection conn = DriverManager.getConnection(connectionString, user, pwd);
         this.statement = conn.createStatement();
     }
-
     public static Database getInstance() throws Exception{
         if (instance == null){
             instance = new Database();

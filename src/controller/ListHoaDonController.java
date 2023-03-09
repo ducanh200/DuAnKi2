@@ -27,6 +27,8 @@ public class ListHoaDonController implements Initializable {
     public TableColumn cgia;
     public TableColumn csp_id;
     public TableView tbView;
+    public TableColumn ctong;
+    public TableColumn csoluong;
 
     public void BackHome(ActionEvent actionEvent) throws Exception
     {
@@ -47,6 +49,8 @@ public class ListHoaDonController implements Initializable {
         csdt.setCellValueFactory(new PropertyValueFactory<>("sdt"));
         cnamesp.setCellValueFactory(new PropertyValueFactory<>("namesp"));
         cgia.setCellValueFactory(new PropertyValueFactory<>("gia"));
+        csoluong.setCellValueFactory(new PropertyValueFactory<>("soluong"));
+        ctong.setCellValueFactory(new PropertyValueFactory<>("tong"));
         csp_id.setCellValueFactory(new PropertyValueFactory<>("sp_id"));
         ObservableList<HoaDon> list = FXCollections.observableArrayList();
         HoadonDAO cd = new HoadonDAO();

@@ -6,14 +6,18 @@ public class HoaDon {
     String sdt;
     String namesp;
     Double gia;
+    Integer soluong;
+    Double tong ;
     String sp_id;
 
-    public HoaDon(Integer id, String namekh, String sdt, String namesp, Double gia, String sp_id) {
+    public HoaDon(Integer id, String namekh, String sdt, String namesp, Double gia,Integer soluong,Double tong, String sp_id) {
         this.id = id;
         this.namekh = namekh;
         this.sdt = sdt;
         this.namesp = namesp;
         this.gia = gia;
+        this.soluong = soluong;
+        this.tong = gia*soluong;
         this.sp_id = sp_id;
     }
 
@@ -55,6 +59,22 @@ public class HoaDon {
 
     public void setGia(Double gia) {
         this.gia = gia;
+    }
+
+    public Integer getSoluong() {
+        return soluong;
+    }
+
+    public void setSoluong(Integer soluong) {
+        this.soluong = soluong;
+    }
+
+    public Double getTong() {
+        return tong;
+    }
+
+    public void setTong(Double tong) {
+        this.tong = tong;
     }
 
     public String getSp_id() {

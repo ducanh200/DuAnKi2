@@ -27,7 +27,7 @@ public class CreatSanPhamController {
             String name = txtname.getText();
             String gia = txtgia.getText();
             if (name.isEmpty() ||gia.isEmpty()){
-                throw new Exception("Vui lòng nhập đủ thông tin vào đây");
+                throw new Exception("Vui lòng nhập đủ thông tin vào đây !");
             }
             Database db = Database.getInstance();
             Statement stt = db.getStatement();

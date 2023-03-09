@@ -6,7 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class HomeController {
+public class HomeController{
     public static Stage rootStage;
 
     public void goToSanPham(ActionEvent actionEvent) throws Exception

@@ -46,4 +46,11 @@ public class ListSanPhamController implements Initializable {
         tbView.getItems().addAll(dslh);
         tbView.refresh();
     }
+
+    public void TaoHoaDon(ActionEvent actionEvent) throws Exception
+    {
+        Parent root = FXMLLoader.load(getClass().getResource("../resources/hoadon/creat.fxml"));
+        HomeController.rootStage.setScene(new Scene(root,1000,700));
+
+    }
 }

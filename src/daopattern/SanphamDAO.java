@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-public class SanphamDAO implements DAOInterface<SanPham>{
+public class SanphamDAO implements DAOInterface<SanPham> {
         private static SanphamDAO instance;
         public Statement statement;
         public ArrayList<SanPham> getAll(){

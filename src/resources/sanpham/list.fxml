@@ -27,5 +27,6 @@
       </Text>
       <Button layoutX="34.0" layoutY="32.0" mnemonicParsing="false" onAction="#BackHome" style="-fx-background-color: green;" text="&lt;&lt;Back" />
       <Button layoutX="870.0" layoutY="32.0" mnemonicParsing="false" onAction="#goToCreat" style="-fx-background-color: red;" text="Thêm sp&gt;&gt;" />
+      <Button layoutX="699.0" layoutY="32.0" mnemonicParsing="false" onAction="#TaoHoaDon" style="-fx-background-color: grey;" text="Tạo hóa đơn &gt;&gt;" />
    </children>
 </Pane>

@@ -25,8 +25,10 @@ public class HoadonDAO implements DAOInterface<HoaDon>{
                 String sdt = rs.getString("sdt");
                 String namesp = rs.getString("namesp");
                 Double gia = rs.getDouble("gia");
+                Integer soluong = rs.getInt("soluong");
+                Double tong = rs.getDouble("tong");
                 String sp_id = rs.getString("sp_id");
-                HoaDon c = new HoaDon(id,namekh,sdt,namesp,gia,sp_id);
+                HoaDon c = new HoaDon(id,namekh,sdt,namesp,gia,soluong,tong,sp_id);
                 list.add(c);
             }
         }catch (Exception e){
@@ -96,8 +98,10 @@ public class HoadonDAO implements DAOInterface<HoaDon>{
                 String sdt = rs.getString("sdt");
                 String namesp = rs.getString("namesp");
                 Double gia = rs.getDouble("gia");
+                Integer soluong = rs.getInt("soluong");
+                Double tong = rs.getDouble("tong");
                 String sp_id = rs.getString("sp_id");
-                HoaDon c = new HoaDon(id,namekh,sdt,namesp,gia,sp_id);
+                HoaDon c = new HoaDon(id,namekh,sdt,namesp,gia,soluong,tong,sp_id);
 
             }
         }catch (Exception e){

@@ -5,7 +5,7 @@ public class SanPham {
     String name;
     Double gia;
 
-    public SanPham(Integer id, String name, Double gia) {
+    public SanPham(Integer id, String name, Double gia)  {
         this.id = id;
         this.name = name;
         this.gia = gia;

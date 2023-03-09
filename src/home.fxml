@@ -13,27 +13,27 @@
             <Image url="@Img/nenchinh.jfif" />
          </image>
       </ImageView>
-      <Text fill="#08ff08" layoutX="377.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAN FOOD">
+      <Text fill="#08ff08" layoutX="343.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PANDA FOOD">
          <font>
             <Font size="50.0" />
          </font>
       </Text>
-      <Button onAction="#goToSanPham" layoutX="62.0" layoutY="173.0" mnemonicParsing="false" prefHeight="132.0" prefWidth="201.0" style="-fx-background-color: #14fff7;" text="Sản phẩm">
+      <Button layoutX="62.0" layoutY="173.0" mnemonicParsing="false" onAction="#goToSanPham" prefHeight="132.0" prefWidth="201.0" style="-fx-background-color: #14fff7;" text="Sản phẩm">
          <font>
             <Font size="25.0" />
          </font>
       </Button>
-      <Button onAction="#goToHoaDon" layoutX="163.0" layoutY="375.0" mnemonicParsing="false" prefHeight="132.0" prefWidth="201.0" style="-fx-background-color: #55ff00;" text="Hóa đơn">
+      <Button layoutX="163.0" layoutY="375.0" mnemonicParsing="false" onAction="#goToHoaDon" prefHeight="132.0" prefWidth="201.0" style="-fx-background-color: #55ff00;" text="Hóa đơn">
          <font>
             <Font size="25.0" />
          </font>
       </Button>
-      <Button onAction="#ThemHoaDon" layoutX="523.0" layoutY="375.0" mnemonicParsing="false" prefHeight="132.0" prefWidth="201.0" style="-fx-background-color: #decfcf;" text="Thêm hóa đơn">
+      <Button layoutX="523.0" layoutY="375.0" mnemonicParsing="false" onAction="#ThemHoaDon" prefHeight="132.0" prefWidth="201.0" style="-fx-background-color: #decfcf;" text="Thêm hóa đơn">
          <font>
             <Font size="23.0" />
          </font>
       </Button>
-      <Button onAction="#ThemSanPham" layoutX="422.0" layoutY="173.0" mnemonicParsing="false" prefHeight="132.0" prefWidth="201.0" style="-fx-background-color: red;" text="Thêm sản phẩm">
+      <Button layoutX="422.0" layoutY="173.0" mnemonicParsing="false" onAction="#ThemSanPham" prefHeight="132.0" prefWidth="201.0" style="-fx-background-color: red;" text="Thêm sản phẩm">
          <font>
             <Font size="23.0" />
          </font>
